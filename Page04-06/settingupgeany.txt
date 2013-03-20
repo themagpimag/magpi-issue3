@@ -1,0 +1,5 @@
+Setting Up Geany
+
+To get geany to work you need to link a terminal to it.
+To do this you open geany, go to Edit-Preferences and then click on the Tools tab.
+In the box next to terminal, clear it and type in /usr/bin/lxterminal then click OK.

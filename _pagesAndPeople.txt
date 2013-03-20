@@ -1,0 +1,35 @@
+Assignment
+==========
+
+Page22-23 - Will
+
+Currently not allocated
+=======================
+Sam
+Simon
+Colin
+Edrick
+Ian
+Josh
+Lix
+Will
+
+----
+
+Starting point (10th Dec.)
+==============
+Page01 - Scribus format available.  Update logo and check pdf
+Page02-03 - Scribus format available.  Update logo and check pdf
+Page04-06 - Scribus format available.
+Page07-09 - Scribus format available.  Improvements to match original pdf? 
+Page10-13 - Scribus format available.
+Page14-15 - Scribus format available.
+Page16-19 - Scribus format available. 
+Page18-19 - Scribus format available.
+Page20-21 - Scribus format available.
+Page22-23 - Scribus format needs to be updated to match current style
+Page24-25 - Scribus format available.
+Page26-27 - No scribus files, no text files.  Needs current Python pit style.
+Page28-29 - Scribus format available
+Page30-31 - Scribus format available.  Update logo.
+Page32 - Scribus format available.  Update logo.
