@@ -192,7 +192,7 @@
             <para PARENT="BodyText"/>
             <ITEXT FONT="FreeSans Oblique" FONTSIZE="10" FCOLOR="White" FSHADE="100" CH="'I've just downloaded issue 2 and printed it. Great quality and info. Thanks so much for all your hard work.'"/>
             <para PARENT="BodyText"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="White" FSHADE="100" CH="bigsi111"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="White" FSHADE="100" CH="Bigsi111"/>
             <trail PARENT="BodyText" ALIGN="2"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
