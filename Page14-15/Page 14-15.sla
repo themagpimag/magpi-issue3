@@ -30,10 +30,12 @@
         <LAYERS NUMMER="3" LEVEL="3" NAME="Page Numbers" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#0000ff"/>
         <LAYERS NUMMER="4" LEVEL="4" NAME="Title" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#00ffff"/>
         <Printer firstUse="1" toFile="1" useAltPrintCommand="1" outputSeparations="1" useSpotColors="1" useColor="1" mirrorH="1" mirrorV="1" useICC="0" doGCR="0" doClip="0" setDevParam="0" useDocBleeds="0" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" includePDFMarks="0" PSLevel="0" PDLanguage="0" markOffset="0" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" printer="" filename="" separationName="" printerCommand=""/>
-        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="0" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="600" Resolution="600" Version="15" Intent="1" Intent2="0" SolidP="sRGB IEC61966-2.1" ImageP="sRGB IEC61966-2.1" PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="8.50393700787402" BLeft="8.50393700787402" BRight="8.50393700787402" BBottom="8.50393700787402" useDocBleeds="0" cropMarks="1" bleedMarks="1" registrationMarks="1" colorMarks="1" docInfoMarks="1" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="0" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
-            <Fonts Name="FreeSans Bold Oblique"/>
-            <Fonts Name="FreeSans Regular"/>
+        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="1" Quality="2" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="600" Resolution="600" Version="15" Intent="1" Intent2="0" SolidP="sRGB IEC61966-2.1" ImageP="sRGB IEC61966-2.1" PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="8.50393700787402" BLeft="8.50393700787402" BRight="8.50393700787402" BBottom="8.50393700787402" useDocBleeds="1" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="0" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
+            <Fonts Name="Monaco Regular"/>
             <Subset Name="FreeSans Bold"/>
+            <Subset Name="FreeSans Bold Oblique"/>
+            <Subset Name="FreeSans Regular"/>
+            <Subset Name="FreeSerif Bold"/>
             <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
             <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
             <LPI Color="" Frequency="10" Angle="0" SpotFunction="0"/>
@@ -69,39 +71,44 @@
         <MASTERPAGE PAGEXPOS="100.00062992126" PAGEYPOS="20.0012598425197" PAGEWIDTH="595.28125984252" PAGEHEIGHT="841.889763779528" BORDERLEFT="53.8582677165354" BORDERRIGHT="28.3464566929134" BORDERTOP="42.5196850393701" BORDERBOTTOM="28.3464566929134" NUM="1" NAM="Normal Right" MNAM="" Size="A4" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
         <PAGE PAGEXPOS="100.00062992126" PAGEYPOS="20.0012598425197" PAGEWIDTH="595.28125984252" PAGEHEIGHT="841.889763779528" BORDERLEFT="53.8582677165354" BORDERRIGHT="28.3464566929134" BORDERTOP="42.5196850393701" BORDERBOTTOM="28.3464566929134" NUM="0" NAM="" MNAM="Normal Left" Size="A4" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
         <PAGE PAGEXPOS="695.28188976378" PAGEYPOS="20.0012598425197" PAGEWIDTH="595.28125984252" PAGEHEIGHT="841.889763779528" BORDERLEFT="53.8582677165354" BORDERRIGHT="28.3464566929134" BORDERTOP="42.5196850393701" BORDERBOTTOM="28.3464566929134" NUM="1" NAM="" MNAM="Normal Right" Size="A4" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
-        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="-14.00125984252" YPOS="18.5196850393707" WIDTH="1419.99937007874" HEIGHT="854" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.547839263147662" LOCALSCY="0.547839263147662" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="Dino" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="dino_light.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 1420 0 1420 0 1420 0 1420 0 1420 854 1420 854 1420 854 1420 854 0 854 0 854 0 854 0 854 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 1420 0 1420 0 1420 0 1420 0 1420 854 1420 854 1420 854 1420 854 0 854 0 854 0 854 0 854 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="71.6541748046875" YPOS="5.16803359985352" WIDTH="1237.09387207031" HEIGHT="873.02099609375" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.5625" LOCALSCY="0.5625" LOCALX="-152.276328192817" LOCALY="-2.80345204828336e-07" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="Dino" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="dino_light.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 1237.09 0 1237.09 0 1237.09 0 1237.09 0 1237.09 873.021 1237.09 873.021 1237.09 873.021 1237.09 873.021 0 873.021 0 873.021 0 873.021 0 873.021 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 1237.09 0 1237.09 0 1237.09 0 1237.09 0 1237.09 873.021 1237.09 873.021 1237.09 873.021 1237.09 873.021 0 873.021 0 873.021 0 873.021 0 873.021 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <ImageEffect Code="3" Param="22"/>
             <ImageEffect Code="4" Param="2"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614174" YPOS="146.25" WIDTH="513.076535433071" HEIGHT="687.294566929134" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="34.0157480314961" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="12" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="1" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 513.077 0 513.077 0 513.077 0 513.077 0 513.077 687.295 513.077 687.295 513.077 687.295 513.077 687.295 0 687.295 0 687.295 0 687.295 0 687.295 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 513.077 0 513.077 0 513.077 0 513.077 0 513.077 687.295 513.077 687.295 513.077 687.295 513.077 687.295 0 687.295 0 687.295 0 687.295 0 687.295 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="1" BOOKMARK="0" NEXTITEM="2" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614174" YPOS="146.25" WIDTH="513.076535433071" HEIGHT="687.294566929134" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="34.0157480314961" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="12" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="1" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 513.077 0 513.077 0 513.077 0 513.077 0 513.077 687.295 513.077 687.295 513.077 687.295 513.077 687.295 0 687.295 0 687.295 0 687.295 0 687.295 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 513.077 0 513.077 0 513.077 0 513.077 0 513.077 687.295 513.077 687.295 513.077 687.295 513.077 687.295 0 687.295 0 687.295 0 687.295 0 687.295 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="3" LAYER="1" BOOKMARK="0" NEXTITEM="2" BACKITEM="-1">
             <ITEXT FONT="FreeSans Bold" FONTSIZE="14" FEATURES="inherit underline" CH="Installing Python PyUSB libraries"/>
             <para ALIGN="3" LINESP="12"/>
             <para ALIGN="3" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="To be able to control your USB device you will need the Python USB Libraries.  The PyUSB Libraries have been written in collaboration by a team of 'open-source' volunteers."/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="To be able to control your USB device you will need the Python USB libraries.  The PyUSB libraries have been written in collaboration with a team of 'open-source' volunteers."/>
             <para ALIGN="3" LINESP="12"/>
             <para ALIGN="3" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="To download them, open midori web browser and visit: "/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="http://goo.gl/N9L4e"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="  This will give you the option to save the pyusb-1.0.0-a1.tar.gz into the Downloads folder.  Type:"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="To download them, open the Midori web browser and visit: "/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="http://goo.gl/"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Blue" CH="5GBcD"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="  This will give you the option to save the pyusb-1.0.0-a2.tar.gz into the Downloads folder.  "/>
             <para ALIGN="3" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="cd Downloads"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="Type 'cd Downloads"/>
+            <ITEXT CH="'"/>
             <para ALIGN="3" LINESP="12"/>
             <para ALIGN="3" LINESP="12"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="Then expand the compressed tarball file:"/>
             <para ALIGN="3" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="tar xvf pyusb-1.0.0-a1.tar.gz"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="tar xvf pyusb-1.0.0-a2.tar.gz"/>
             <para ALIGN="3" LINESP="12"/>
             <para ALIGN="3" LINESP="12"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="List the files and directories by typing 'ls'"/>
+            <ITEXT CH="."/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" You should see a new directory called “pyusb-1.0.0-a2”"/>
+            <ITEXT CH="."/>
             <para ALIGN="3" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="(You should see a new directory called “pyusb-1.0.0-a1”)"/>
             <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="Change directory by typing: 'cd pyusb-1.0.0-a2"/>
+            <ITEXT CH="'"/>
             <para ALIGN="3" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="Change directory by typing: cd pyusb-1.0.0-a1"/>
-            <para ALIGN="3" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="(Type 'ls' again to see the contents of the directory)"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="Type 'ls' again to see the contents of the directory"/>
+            <ITEXT CH="."/>
             <para ALIGN="3" LINESP="12"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="Type 'sudo python setup.py install'"/>
             <para ALIGN="3" LINESP="12"/>
@@ -112,177 +119,180 @@
             <ITEXT FONT="FreeSans Bold" FONTSIZE="14" FEATURES="inherit underline" CH="Writing the Python program"/>
             <para ALIGN="3" LINESP="12"/>
             <para ALIGN="3" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FEATURES="inherit" CH="Type this code in geany and save it as 'arm.py"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FEATURES="inherit" CH="Type this code in Idle and save it as 'arm.py"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="':"/>
             <para ALIGN="3" LINESP="12"/>
             <para ALIGN="3" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="# ROBOT ARM CONTROL PROGRAM"/>
-            <para ALIGN="0" LINESP="12"/>
-            <para PARENT="4pt padding"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="# import the USB and Time libraries into Python"/>
-            <para ALIGN="0" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="import usb.core, usb.util, time"/>
-            <para ALIGN="0" LINESP="12"/>
-            <para PARENT="4pt padding"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="# Allocate the name 'RoboArm' to the USB device"/>
-            <para ALIGN="0" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="RoboArm = usb.core.find(idVendor=0x1267, idProduct=0x0000)"/>
-            <para ALIGN="0" LINESP="12"/>
-            <para PARENT="4pt padding"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="# Check if the arm is detected and warn if not"/>
-            <para ALIGN="0" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="if RoboArm is None:"/>
-            <para ALIGN="0" LINESP="12"/>
-            <tab FONT="FreeSans Regular" FONTSIZE="10"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="raise ValueError(&quot;Arm not found&quot;)"/>
-            <para ALIGN="0" LINESP="12"/>
-            <tab/>
-            <para PARENT="4pt padding"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="# Create a variable for duration"/>
-            <para ALIGN="0" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="Duration=1"/>
-            <para ALIGN="0" LINESP="12"/>
-            <para PARENT="4pt padding"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="# Define a procedure to execute each movement"/>
-            <para ALIGN="0" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="def MoveArm(Duration, ArmCmd):"/>
-            <para ALIGN="0" LINESP="12"/>
-            <tab FONT="FreeSans Regular" FONTSIZE="10"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="# Start the movement"/>
-            <para ALIGN="0" LINESP="12"/>
-            <tab FONT="FreeSans Regular" FONTSIZE="10"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="RoboArm.ctrl_transfer(0x40,6,0x100,0,ArmCmd,1000)"/>
-            <para ALIGN="0" LINESP="12"/>
-            <tab FONT="FreeSans Regular" FONTSIZE="10"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="# Stop the movement after waiting specified duration"/>
-            <para ALIGN="0" LINESP="12"/>
-            <tab FONT="FreeSans Regular" FONTSIZE="10"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="time.sleep(Duration)"/>
-            <para ALIGN="0" LINESP="12"/>
-            <tab FONT="FreeSans Regular" FONTSIZE="10"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="ArmCmd=[0,0,0]"/>
-            <para ALIGN="0" LINESP="12"/>
-            <tab FONT="FreeSans Regular" FONTSIZE="10"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="RoboArm.ctrl_transfer(0x40,6,0x100,0,ArmCmd,1000)"/>
-            <para ALIGN="0" LINESP="12"/>
-            <para PARENT="4pt padding"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="# Give the arm some commands"/>
-            <para ALIGN="0" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="MoveArm(1,[0,1,0]) # Rotate Base Anti-clockwise"/>
-            <para ALIGN="0" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="MoveArm(1,[0,2,0]) # Rotate Base Clockwise"/>
-            <para ALIGN="0" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="MoveArm(1,[64,0,0]) # Shoulder Up"/>
-            <para ALIGN="0" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="MoveArm(1,[128,0,0]) # Shoulder Down"/>
-            <para ALIGN="0" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="MoveArm(1,[16,0,0]) # Elbow Up"/>
-            <para ALIGN="0" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="MoveArm(1,[32,0,0]) # Elbow Down"/>
-            <para ALIGN="0" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="MoveArm(1,[4,0,0]) # Wrist Up"/>
-            <para ALIGN="0" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="MoveArm(1,[8,0,0]) # Wrist Down"/>
-            <para ALIGN="0" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="MoveArm(1,[2,0,0]) # Grip Open"/>
-            <para ALIGN="0" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="MoveArm(1,[1,0,0]) # Grip Close"/>
-            <para ALIGN="0" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="MoveArm(1,[0,0,1]) # Light On"/>
-            <para ALIGN="0" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="MoveArm(1,[0,0,0]) # Light Off"/>
-            <para ALIGN="0" LINESP="12"/>
-            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH="# ROBOT ARM CONTROL PROGRAM"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para PARENT="4pt padding" ALIGN="3"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH="# import the USB and Time libraries into Python"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH="import usb.core, usb.util, time"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para PARENT="4pt padding" ALIGN="3"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH="# Allocate the name 'RoboArm' to the USB device"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH="RoboArm = usb.core.find(idVendor=0x1267,idProduct =0x0000)"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para PARENT="4pt padding" ALIGN="3"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH="# Check if the arm is detected and warn if not"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH="if RoboArm is None:"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH="    raise ValueError(&quot;Arm not found&quot;)"/>
+            <para ALIGN="3" LINESP="12"/>
+            <tab FONT="Monaco Regular" FONTSIZE="8"/>
+            <para PARENT="4pt padding" ALIGN="3"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH="# Create a variable for duration"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH="Duration=1"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para PARENT="4pt padding" ALIGN="3"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH="# Define a procedure to execute each movement"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH="def MoveArm(Duration, ArmCmd):"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH="    # Start the movement"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH="    RoboArm.ctrl_transfer(0x40,6,0x100,0,ArmCmd, 1000)"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH="    # Stop movement after waiting specified time"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH="    time.sleep(Duration)"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH="    ArmCmd=[0,0,0]"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH="    RoboArm.ctrl_transfer(0x40,6,0x100,0,ArmCmd, 1000)"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para PARENT="4pt padding" ALIGN="3"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH="# Give the arm some commands"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH="MoveArm(1,[0,1,0]) # Rotate Base Anti-clockwise"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH="MoveArm(1,[0,2,0]) # Rotate Base Clockwise"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH="MoveArm(1,[64,0,0]) # Shoulder Up"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH="MoveArm(1,[128,0,0]) # Shoulder Down"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH="MoveArm(1,[16,0,0]) # Elbow Up"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH="MoveArm(1,[32,0,0]) # Elbow Down"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH="MoveArm(1,[4,0,0]) # Wrist Up"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH="MoveArm(1,[8,0,0]) # Wrist Down"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH="MoveArm(1,[2,0,0]) # Grip Open"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH="MoveArm(1,[1,0,0]) # Grip Close"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH="MoveArm(1,[0,0,1]) # Light On"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH="MoveArm(1,[0,0,0]) # Light Off"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="To try out this code type into the command line:"/>
             <para ALIGN="3" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="sudo python arm.py"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="'sudo python arm.py"/>
+            <ITEXT CH="'"/>
             <para ALIGN="3" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="(sudo is required as USB requires root access)"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="sudo is required as USB requires root access"/>
+            <ITEXT CH="."/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" "/>
             <para ALIGN="3" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="Give the arm room to move BEFORE testing."/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="10" CH="Give the arm room to move BEFORE testing."/>
             <para ALIGN="3" LINESP="12"/>
             <para ALIGN="3" LINESP="12"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="You will notice that the ArmCmd has 3 values:"/>
-            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="1. controls the motors for the grip, wrist, elbow and shoulder."/>
-            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="2. is for rotating the base.  Valid values are 0 (No rotation) 1 (Anti-clockwise) 2 (Clockwise)"/>
-            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="3. is for the LED at the end of the arm.  Valid values are 0 (Off) 1 (On)"/>
-            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
             <para ALIGN="3" LINESP="12"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="For the first value, you can combine movements by adding the commands together, for example [32,0,0] + [8,0,0] = [40,0,0]. This would make the elbow and wrist go down at the same time. Of course some combinations won't work, like attempting to operate the same motor in both directions."/>
             <para ALIGN="3" LINESP="12"/>
             <para ALIGN="3" LINESP="12"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="For example, try MoveArm(1,[144,1,0]) and MoveArm(1,[96,2,0])"/>
-            <para ALIGN="0" LINESP="12"/>
-            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="The idVendor and idProduct values (0x1267) &amp; (0x0000) were obtained by typing at the command line:"/>
-            <para ALIGN="0" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="sudo lsusb -v"/>
-            <para ALIGN="0" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="(This provides a list of details about all of the USB devices that are connected to your Pi)"/>
-            <para ALIGN="0" LINESP="12"/>
-            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="'sudo lsusb -v"/>
+            <ITEXT CH="'"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="This provides a list of details about all of the USB devices that are connected to your Pi"/>
+            <ITEXT CH="."/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="The values for '.ctrl_transfer' (0x40, 6, 0x100, 0) were obtained by 'USB sniffing' the device using software such as 'Snoopypro' for Windows.  These hexadecimal numbers represent the 'USB protocol' for the robot arm.  You can think of it as the language that the arm's circuit board controller understands."/>
-            <para ALIGN="0" LINESP="12"/>
-            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="The value 1000 at the end of .ctrl_transfer is a timeout value for sending the command to the USB device."/>
-            <para ALIGN="0" LINESP="12"/>
-            <para ALIGN="0" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="This is the bare minimum of what you need to be able to start programming your robot arm. If you wish to take your knowledge further and eventually have the ability to accomplish much more I have included some extra information about how USB devices such as our robot arm actually work to help you get started off."/>
-            <para ALIGN="0" LINESP="12"/>
-            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="This is the bare minimum of what you need to be able to do to start programming your robot arm. If you wish to take your knowledge further, and eventually have the ability to accomplish much more, I have included some extra information about how USB devices such as our robot arm actually works to help you get started off."/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
             <ITEXT FONT="FreeSans Bold" FONTSIZE="14" FEATURES="inherit underline" CH="An introduction to USB devices"/>
             <para ALIGN="3" LINESP="12"/>
-            <para ALIGN="0" LINESP="12"/>
+            <para ALIGN="3" LINESP="12"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="All of the robot arm's motors are connected by wires to the circuit board. By sending signals to the circuit board we can control each of the motors. This circuit board is a USB device. "/>
-            <para/>
-            <para/>
+            <para ALIGN="3"/>
+            <para ALIGN="3"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="The protocols and methods used by USB are very complicated and events happen so quickly that it takes  some clever software such as a USB sniffer to allow us to monitor what is going on. This port is also so strange that no one can even agree on who invented it or why! Some say it was designed to cut down the number of wires poking out of the back of your computer and it looks like the “Apple Desktop Bus” from the early Apple computers – so it must have been invented by Apple. Others disagree and point out that it works like a 10 Base T Ethernet (computer network) with a star topology so it can’t be anything to do with Apple. I don’t think this argument will ever be won."/>
-            <para/>
-            <para/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="USB devices  have a “Vendor ID” and a “Product ID”. These ID's have to be issued by a special organisation (USB.org) and they differentiate between all the different devices on the market and allow your computer to recognise what it is when you plug it in. That's why when you plug a mouse into your computer it knows that it's a “Acme Optical Mouse” and not a “Eastern Electric My Personal Storage Pad”. (Or in our case an “OWI Edge Robot Arm”)"/>
-            <para/>
-            <para/>
+            <para ALIGN="3"/>
+            <para ALIGN="3"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="USB devices  have a “Vendor ID” and a “Product ID”. These ID's have to be issued by a special organisation (USB.org) and they differentiate between all the different devices on the market and allow your computer to recognise what it is when you plug it in. That's why when you plug a mouse into your computer it knows that it's a “Acme Optical Mouse” and not a “Eastern Electric My Personal Storage Pad”, or in our case an “OWI Edge Robot Arm”"/>
+            <ITEXT CH="."/>
+            <para ALIGN="3"/>
+            <para ALIGN="3"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="Within the circuitry for USB devices are &quot;endpoint addresses&quot; . USB devices use “pipes” (dedicated lines for transmitting data to and from the device and computer). At the end of the pipe in your computer is a USB “hub” (which works in a similar way to a network hub. It allows devices to be attached to branches that all trace back to one common point). The &quot;endpoint&quot; is at the other end of the pipe in our USB robot arm device and the address specifies where it is. Some USB devices are called “composite” devices because they combine two or more different devices together (like a web-cam which also includes a built in microphone). Such a device would have at least two end point addresses, one for the web-cam part and one for the microphone part. "/>
-            <para/>
-            <para/>
+            <para ALIGN="3"/>
+            <para ALIGN="3"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="When we are working with composite USB devices we may also need to refer to an interface number. Where a USB device is really made of several devices  working together and each device is at an endpoint, then an interface groups those endpoints together to allow the separate devices to work together to perform a single function. The interface is referenced by an “interface number”. This number is the index for the device so that the USB controller knows which interface to talk to. The first interface number is “0”. The second interface is at “1” and so on."/>
-            <para/>
-            <para/>
+            <para ALIGN="3"/>
+            <para ALIGN="3"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="As far as the control computer and USB is concerned, our robot arm is a single device (it is a circuit board which switches some electric motors on and off when it receives the right signal from the USB) and so it is very simple to write USB control programs for it."/>
-            <para/>
-            <para/>
+            <para ALIGN="3"/>
+            <para ALIGN="3"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="You can consider that the circuit board included with the robot arm is like three rows of eight switches (or otherwise known as three bytes). When the computer sends the right signal to it via the USB it turns one or more of these switches on and in turn this starts a motor on the robot arm turning in one direction or another. "/>
-            <para/>
-            <para/>
+            <para ALIGN="3"/>
+            <para ALIGN="3"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="The robot arm circuit board actually uses a numbering system called &quot;binary&quot;. When you send a control code such as [128,0,0] these numbers are converted into their binary equivalent. For example this particular command would become [10000000, 00000000, 00000000]. The &quot;1&quot; in the first binary number is equivalent to turning on the switch that would start the shoulder motor turning."/>
-            <para ALIGN="0" LINESP="12"/>
-            <para/>
+            <para ALIGN="3" LINESP="12"/>
+            <para ALIGN="3"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="When data is sent to and from any USB device the information is always sent in a series of bytes, or eight &quot;on&quot; and &quot;off&quot; / &quot;1&quot; or &quot;0&quot; signals like this. These signals are interpreted by USB devices in different ways and allow them to perform all the different kinds of functions that they are capable of."/>
             <para ALIGN="3" LINESP="12"/>
             <para ALIGN="3" LINESP="12"/>
             <ITEXT FONT="FreeSans Bold" FONTSIZE="14" FEATURES="inherit underline" CH="Next steps for the Skutter"/>
             <para ALIGN="3" LINESP="12"/>
-            <para/>
+            <para ALIGN="3"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="At the moment, even with our own Python programs controlling our robot arm, it is still not much more than a toy. It still has no sense of where it is or what it is doing. Eventually we want our robot to be able to accomplish “missions”."/>
-            <para/>
-            <para/>
+            <para ALIGN="3"/>
+            <para ALIGN="3"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="Our robot is going to have a number of sensors added to it to monitor position as well as to include a kind of robotic sense of sight. The values from these sensors will need to feed back into its Raspberry Pi “brain” via the GPIO. If you have started following the &quot;In Control&quot; series in this magazine you may be able to imagine how we could start to accomplish this."/>
-            <para/>
-            <para/>
+            <para ALIGN="3"/>
+            <para ALIGN="3"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="Our Skutter Master Control Program will need to take these sensor values, interpret them and make decisions about what to do before directing the arm and motorised base about where and what to move and how much to move by."/>
-            <para/>
-            <para/>
+            <para ALIGN="3"/>
+            <para ALIGN="3"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="In the next article we will investigate a number of ways in which we can provide this required &quot;sensory feedback&quot; to allow the robot arm to become much more than a simple toy. "/>
-            <para/>
-            <para/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="In future articles we will look at ways of adding a motorised base with wheels to the robot arm and finally we will examine some ways of giving our &quot;skutter&quot; some kind of an artificial intelligence. I will be writing these articles as I continue to build up my own version of the robot. I hope they will be of use to you or encourage you to start your own robotics project.  Looking forward to seeing you all again soon!"/>
-            <trail/>
+            <para ALIGN="3"/>
+            <para ALIGN="3"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="In future articles we will look at ways of adding a motorised base with wheels to the robot arm and finally we will examine some ways of giving our &quot;skutter&quot; some kind of artificial intelligence. I will be writing these articles as I continue to build up my own version of the robot. I hope they will be of use to you or encourage you to start your own robotics project.  Looking forward to seeing you all again soon!"/>
+            <trail ALIGN="3"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="749.140157480315" YPOS="62.5209448818898" WIDTH="513.076535433071" HEIGHT="771.023622047245" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="34.0157480314961" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="12" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="1" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 513.077 0 513.077 0 513.077 0 513.077 0 513.077 771.024 513.077 771.024 513.077 771.024 513.077 771.024 0 771.024 0 771.024 0 771.024 0 771.024 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 513.077 0 513.077 0 513.077 0 513.077 0 513.077 771.024 513.077 771.024 513.077 771.024 513.077 771.024 0 771.024 0 771.024 0 771.024 0 771.024 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="1" BOOKMARK="0" NEXTITEM="-1" BACKITEM="1">
+        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="749.140157480315" YPOS="62.5209448818898" WIDTH="513.076535433071" HEIGHT="771.023622047245" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="34.0157480314961" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="12" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="1" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 513.077 0 513.077 0 513.077 0 513.077 0 513.077 771.024 513.077 771.024 513.077 771.024 513.077 771.024 0 771.024 0 771.024 0 771.024 0 771.024 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 513.077 0 513.077 0 513.077 0 513.077 0 513.077 771.024 513.077 771.024 513.077 771.024 513.077 771.024 0 771.024 0 771.024 0 771.024 0 771.024 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="3" LAYER="1" BOOKMARK="0" NEXTITEM="-1" BACKITEM="1">
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="100.00062992126" YPOS="833.544566929134" WIDTH="28.3464566929134" HEIGHT="28.1095684092118" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="1" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 28.3465 0 28.3465 0 28.3465 0 28.3465 0 28.3465 28.1096 28.3465 28.1096 28.3465 28.1096 28.3465 28.1096 0 28.1096 0 28.1096 0 28.1096 0 28.1096 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 28.3465 0 28.3465 0 28.3465 0 28.3465 0 28.3465 28.1096 28.3465 28.1096 28.3465 28.1096 28.3465 28.1096 0 28.1096 0 28.1096 0 28.1096 0 28.1096 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="3" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
@@ -296,11 +306,11 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614173" YPOS="62.5209448818898" WIDTH="513.076535433071" HEIGHT="103.22905511811" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="24" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 513.077 0 513.077 0 513.077 0 513.077 0 513.077 103.229 513.077 103.229 513.077 103.229 513.077 103.229 0 103.229 0 103.229 0 103.229 0 103.229 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 513.077 0 513.077 0 513.077 0 513.077 0 513.077 103.229 513.077 103.229 513.077 103.229 513.077 103.229 0 103.229 0 103.229 0 103.229 0 103.229 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="4" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="36" FCOLOR="SkutterBlue" FSHADE="100" CH="Skutter: Part 2"/>
+            <ITEXT FONT="FreeSerif Bold" FONTSIZE="36" FCOLOR="SkutterBlue" FSHADE="100" CH="SKUTTER: Part 2"/>
             <para ALIGN="1" LINESP="24"/>
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="24" FCOLOR="SkutterBlue" FSHADE="100" CH="How to write a program for your USB device"/>
+            <ITEXT FONT="FreeSerif Bold" FONTSIZE="24" FCOLOR="SkutterBlue" FSHADE="100" CH="How to write a program for your USB device"/>
             <para ALIGN="1" LINESP="24"/>
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="16" FCOLOR="SkutterBlue" FSHADE="100" CH="By Bodge N Hackitt"/>
+            <ITEXT FONT="FreeSerif Bold" FONTSIZE="16" FCOLOR="SkutterBlue" FSHADE="100" CH="By Bodge N Hackitt"/>
             <trail ALIGN="1" LINESP="24"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -308,7 +318,7 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="6" XPOS="399.99937007874" YPOS="145" WIDTH="241.424251968505" HEIGHT="135.788661417323" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 241.424 0 241.424 0 241.424 0 241.424 0 241.424 135.789 241.424 135.789 241.424 135.789 241.424 135.789 0 135.789 0 135.789 0 135.789 0 135.789 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 241.424 0 241.424 0 241.424 0 241.424 0 241.424 135.789 241.424 135.789 241.424 135.789 241.424 135.789 0 135.789 0 135.789 0 135.789 0 135.789 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="0" PTYPE="6" XPOS="399.999359130859" YPOS="145" WIDTH="241.424255371094" HEIGHT="158.4658203125" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 241.424 0 241.424 0 241.424 0 241.424 0 241.424 158.466 241.424 158.466 241.424 158.466 241.424 158.466 0 158.466 0 158.466 0 158.466 0 158.466 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 241.424 0 241.424 0 241.424 0 241.424 0 241.424 158.466 241.424 158.466 241.424 158.466 241.424 158.466 0 158.466 0 158.466 0 158.466 0 158.466 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
