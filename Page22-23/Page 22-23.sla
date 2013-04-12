@@ -23,7 +23,7 @@
         <COLOR NAME="pale-yellow" RGB="#f8f9e4" Spot="0" Register="0"/>
         <COLOR NAME="stone" RGB="#c7c3b4" Spot="0" Register="0"/>
         <HYPHEN/>
-        <STYLE NAME="Default Paragraph Style" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
+        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
         <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
         <CHARSTYLE CNAME="Copy of Default Character Style (1)" FONT="Bitstream Charter Bold" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
         <CHARSTYLE CNAME="Copy of Default Character Style (2)" FONT="Bitstream Charter Bold" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
@@ -34,12 +34,12 @@
         <LAYERS NUMMER="3" LEVEL="3" NAME="Page Numbers" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#0000ff"/>
         <LAYERS NUMMER="4" LEVEL="4" NAME="Title" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#00ffff"/>
         <Printer firstUse="1" toFile="1" useAltPrintCommand="1" outputSeparations="1" useSpotColors="1" useColor="1" mirrorH="1" mirrorV="1" useICC="0" doGCR="0" doClip="0" setDevParam="0" useDocBleeds="0" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" includePDFMarks="0" PSLevel="0" PDLanguage="0" markOffset="0" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" printer="" filename="" separationName="" printerCommand=""/>
-        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="0" Grayscale="0" RGBMode="0" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="sRGB IEC61966-2.1" ImageP="sRGB IEC61966-2.1" PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="8.50393700787402" BLeft="8.50393700787402" BRight="8.50393700787402" BBottom="8.50393700787402" useDocBleeds="0" cropMarks="1" bleedMarks="1" registrationMarks="1" colorMarks="1" docInfoMarks="1" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="0" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
-            <Fonts Name="FreeSans Bold Oblique"/>
-            <Fonts Name="FreeSans Regular"/>
+        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="1" Quality="2" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="0" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="sRGB IEC61966-2.1" ImageP="sRGB IEC61966-2.1" PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="8.50393700787402" BLeft="8.50393700787402" BRight="8.50393700787402" BBottom="8.50393700787402" useDocBleeds="1" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="0" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
+            <Fonts Name="Monaco Regular"/>
             <Subset Name="FreeMono Medium"/>
-            <Subset Name="Monaco Regular"/>
             <Subset Name="FreeSans Bold"/>
+            <Subset Name="FreeSans Bold Oblique"/>
+            <Subset Name="FreeSans Regular"/>
             <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
             <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
             <LPI Color="" Frequency="10" Angle="0" SpotFunction="0"/>
@@ -79,11 +79,11 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614174" YPOS="168.214285714286" WIDTH="513.076535433071" HEIGHT="665.330281214849" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="34.0157480314961" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="14" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="1" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 513.077 0 513.077 0 513.077 0 513.077 0 513.077 665.33 513.077 665.33 513.077 665.33 513.077 665.33 0 665.33 0 665.33 0 665.33 0 665.33 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 513.077 0 513.077 0 513.077 0 513.077 0 513.077 665.33 513.077 665.33 513.077 665.33 513.077 665.33 0 665.33 0 665.33 0 665.33 0 665.33 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="1" BOOKMARK="0" NEXTITEM="2" BACKITEM="-1">
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="C is an excellent language for building fast and very efficient programs.  It can be found in applications where speed and memory footprint matter, such as the LINUX kernel and data acquisition systems."/>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614174" YPOS="168.214285714285" WIDTH="513.076535433071" HEIGHT="665.330281214849" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="34.0157480314961" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="14" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="1" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 513.077 0 513.077 0 513.077 0 513.077 0 513.077 665.33 513.077 665.33 513.077 665.33 513.077 665.33 0 665.33 0 665.33 0 665.33 0 665.33 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 513.077 0 513.077 0 513.077 0 513.077 0 513.077 665.33 513.077 665.33 513.077 665.33 513.077 665.33 0 665.33 0 665.33 0 665.33 0 665.33 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="1" BOOKMARK="0" NEXTITEM="2" BACKITEM="-1">
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="C is an excellent language for building fast and very efficient programs.  It can be found in applications where speed and memory footprint matter, such as the Linux kernel and data acquisition systems."/>
             <para ALIGN="3" LINESP="14"/>
             <para ALIGN="3" LINESP="14"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="When learning a new language it is a good idea to first solve the programming problem with pen and paper before reaching for the keyboard.  Pseudo-code and flow diagrams provide methods for doing this.  Particular languages tend to prefer particular solutions to a given problem.  However, this is something that can be understood with practice."/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="When learning a new language it is a good idea to first solve the programming problem with pen and paper before reaching for the keyboard.  Pseudo-code and flow diagrams provide methods for doing this.  Particular languages tend to prefer particular solutions to a given problem, however this is something that can be understood with practice."/>
             <para ALIGN="3" LINESP="14"/>
             <para ALIGN="3" LINESP="14"/>
             <ITEXT FONT="FreeSans Bold Oblique" FONTSIZE="18" CH="1 – Getting off the ground"/>
@@ -121,14 +121,14 @@
             <ITEXT FONT="FreeMono Medium" FONTSIZE="10" CH="nano"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" is used as an example text editor.  Some useful "/>
             <ITEXT FONT="FreeMono Medium" FONTSIZE="10" CH="nano"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" command are given in the table below,"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" commands are given in the table below,"/>
             <para ALIGN="3" LINESP="14"/>
             <para ALIGN="3" LINESP="14"/>
             <para ALIGN="3" LINESP="14"/>
             <para ALIGN="3" LINESP="14"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="Open two terminal windows, one for "/>
             <ITEXT FONT="FreeMono Medium" FONTSIZE="10" CH="nano"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" and the other for compilation. (Using the default Raspberry PI Debian image, a terminal window can be opened by clicking on "/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" and the other for compilation. (Using the default Raspberry Pi Debian image, a terminal window can be opened by clicking on "/>
             <ITEXT FONT="FreeMono Medium" FONTSIZE="10" CH="Accessories"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" and then "/>
             <ITEXT FONT="FreeMono Medium" FONTSIZE="10" CH="LXTerminal"/>
@@ -136,8 +136,10 @@
             <ITEXT FONT="FreeMono Medium" FONTSIZE="10" CH="nano"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" to create a new file called "/>
             <ITEXT FONT="FreeMono Medium" FONTSIZE="10" CH="first.c"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=", type in the program and save it.  Before a C program can be run it has to be compiled.  On LINUX the GNU C compiler (gcc) is used to compile C source code.  In the other terminal window compile the program by typing,"/>
-            <ITEXT FONT="FreeMono Medium" FONTSIZE="10" CH=" gcc -o first first.c"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=". Type in the program and save it.  Before a C program can be run it has to be compiled.  In Linux the GNU C compiler (gcc) is used to compile C source code.  In the other terminal window compile the program by typing:"/>
+            <ITEXT FONT="FreeMono Medium" FONTSIZE="10" CH=" "/>
+            <para ALIGN="3" LINESP="14"/>
+            <ITEXT FONT="FreeMono Medium" FONTSIZE="10" CH="gcc -o first first.c"/>
             <para ALIGN="3" LINESP="14"/>
             <para ALIGN="3" LINESP="14"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="The gcc compiler will then attempt to compile the C program and link it together with the standard libraries to form an executable called first.  If the compiler is successful, no messages will be printed on the screen.  If an error is reported by the compiler, check the line number where the error is reported and try to compile the program again.  When the program has been successfully compiled, run the executable by typing: "/>
@@ -196,7 +198,7 @@
             <ITEXT FONT="FreeMono Medium" FONTSIZE="10" CH="stdio.h"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" header file.  These functions can be used to read from the keyboard and write to the screen.  Input values can be read from the keyboard using the "/>
             <ITEXT FONT="FreeMono Medium" FONTSIZE="10" CH="scanf"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" function,"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" function."/>
             <para ALIGN="3" LINESP="14"/>
             <para ALIGN="3" LINESP="14"/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH=" #include &lt;stdio.h&gt;"/>
@@ -248,13 +250,14 @@
             <ITEXT FONT="FreeMono Medium" FONTSIZE="10" CH="%d"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" character code to denote integer output.  More information on functions in "/>
             <ITEXT FONT="FreeMono Medium" FONTSIZE="10" CH="stdio.h"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" can be found by typing,    "/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" can be found by typing:"/>
+            <para ALIGN="3" LINESP="14"/>
             <ITEXT FONT="FreeMono Medium" FONTSIZE="10" CH="man stdio"/>
             <para ALIGN="3" LINESP="14"/>
             <para ALIGN="3" LINESP="14"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="To exit the manual page, type "/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="To exit the manual page, press "/>
             <ITEXT FONT="FreeMono Medium" FONTSIZE="12" KERN="0" CH="q"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=". There are many LINUX manual pages, which cover other standard library functions and the compiler options ("/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=". There are many Linux manual pages which cover other standard library functions and the compiler options ("/>
             <ITEXT FONT="FreeMono Medium" FONTSIZE="10" CH="man gcc"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="). "/>
             <para ALIGN="3" LINESP="14"/>
@@ -303,7 +306,7 @@
             <para ALIGN="0" LINESP="14"/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH="   return 0;"/>
             <para ALIGN="0" LINESP="14"/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH=" }                                simple_maths.c"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH=" }                                simple_math.c"/>
             <para ALIGN="3" LINESP="14"/>
             <para ALIGN="3" LINESP="14"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="The program "/>
@@ -465,7 +468,7 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="100.00062992126" YPOS="20.0012598425197" WIDTH="595.2755906" HEIGHT="127.5" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="14.4" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.193774606315104" LOCALSCY="0.193774606315104" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="../../Issue 4/Page24-27/C_Cave.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 595.276 0 595.276 0 595.276 0 595.276 0 595.276 127.5 595.276 127.5 595.276 127.5 595.276 127.5 0 127.5 0 127.5 0 127.5 0 127.5 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 595.276 0 595.276 0 595.276 0 595.276 0 595.276 127.5 595.276 127.5 595.276 127.5 595.276 127.5 0 127.5 0 127.5 0 127.5 0 127.5 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="89.25" YPOS="8.66267681121826" WIDTH="606.026184082031" HEIGHT="138.838592529297" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="14.4" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.2173" LOCALSCY="0.2173" LOCALX="-91.313942406992" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="C_Cave.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 606.026 0 606.026 0 606.026 0 606.026 0 606.026 138.839 606.026 138.839 606.026 138.839 606.026 138.839 0 138.839 0 138.839 0 138.839 0 138.839 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 606.026 0 606.026 0 606.026 0 606.026 0 606.026 138.839 606.026 138.839 606.026 138.839 606.026 138.839 0 138.839 0 138.839 0 138.839 0 138.839 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -474,11 +477,11 @@
             <trail ALIGN="2"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="157.49962992126" YPOS="56.8516520425197" WIDTH="165.75" HEIGHT="48.1889801" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="14.4" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.195097085425101" LOCALSCY="0.195097085425101" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="../../Issue 4/Page24-27/C_Cave text the.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 165.75 0 165.75 0 165.75 0 165.75 0 165.75 48.189 165.75 48.189 165.75 48.189 165.75 48.189 0 48.189 0 48.189 0 48.189 0 48.189 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 165.75 0 165.75 0 165.75 0 165.75 0 165.75 48.189 165.75 48.189 165.75 48.189 165.75 48.189 0 48.189 0 48.189 0 48.189 0 48.189 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="4" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="157.49962992126" YPOS="56.8516520425197" WIDTH="165.75" HEIGHT="48.1889801" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="14.4" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.195097085425101" LOCALSCY="0.195097085425101" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="C_Cave text the.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 165.75 0 165.75 0 165.75 0 165.75 0 165.75 48.189 165.75 48.189 165.75 48.189 165.75 48.189 0 48.189 0 48.189 0 48.189 0 48.189 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 165.75 0 165.75 0 165.75 0 165.75 0 165.75 48.189 165.75 48.189 165.75 48.189 165.75 48.189 0 48.189 0 48.189 0 48.189 0 48.189 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="4" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="477.74962992126" YPOS="56.8516520425197" WIDTH="163.6687012" HEIGHT="49.6483078" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="14.4" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.191201753738318" LOCALSCY="0.191201753738318" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="../../Issue 4/Page24-27/C_Cave text cave.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 163.669 0 163.669 0 163.669 0 163.669 0 163.669 49.6483 163.669 49.6483 163.669 49.6483 163.669 49.6483 0 49.6483 0 49.6483 0 49.6483 0 49.6483 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 163.669 0 163.669 0 163.669 0 163.669 0 163.669 49.6483 163.669 49.6483 163.669 49.6483 163.669 49.6483 0 49.6483 0 49.6483 0 49.6483 0 49.6483 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="4" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="477.74962992126" YPOS="56.8516520425197" WIDTH="163.6687012" HEIGHT="49.6483078" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="14.4" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.191201753738318" LOCALSCY="0.191201753738318" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="C_Cave text cave.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 163.669 0 163.669 0 163.669 0 163.669 0 163.669 49.6483 163.669 49.6483 163.669 49.6483 163.669 49.6483 0 49.6483 0 49.6483 0 49.6483 0 49.6483 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 163.669 0 163.669 0 163.669 0 163.669 0 163.669 49.6483 163.669 49.6483 163.669 49.6483 163.669 49.6483 0 49.6483 0 49.6483 0 49.6483 0 49.6483 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="4" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>

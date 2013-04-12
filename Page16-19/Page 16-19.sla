@@ -34,12 +34,12 @@
             <Separation Name="Yellow"/>
             <Separation Name="Black"/>
         </Printer>
-        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="0" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="600" Resolution="600" Version="15" Intent="1" Intent2="0" SolidP="sRGB IEC61966-2.1" ImageP="sRGB IEC61966-2.1" PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="8.50393700787402" BLeft="8.50393700787402" BRight="8.50393700787402" BBottom="8.50393700787402" useDocBleeds="0" cropMarks="1" bleedMarks="1" registrationMarks="1" colorMarks="1" docInfoMarks="1" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="0" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
-            <Fonts Name="FreeSans Bold Oblique"/>
-            <Fonts Name="FreeSans Regular"/>
-            <Subset Name="FreeSerif Bold Italic"/>
-            <Subset Name="Monaco Regular"/>
+        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="1" Quality="2" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="600" Resolution="600" Version="15" Intent="1" Intent2="0" SolidP="sRGB IEC61966-2.1" ImageP="sRGB IEC61966-2.1" PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="8.50393700787402" BLeft="8.50393700787402" BRight="8.50393700787402" BBottom="8.50393700787402" useDocBleeds="1" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="0" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
+            <Fonts Name="Monaco Regular"/>
             <Subset Name="FreeSans Bold"/>
+            <Subset Name="FreeSans Bold Oblique"/>
+            <Subset Name="FreeSans Regular"/>
+            <Subset Name="FreeSerif Bold Italic"/>
             <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
             <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
             <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
@@ -88,7 +88,7 @@
             <ImageEffect Code="3" Param="53"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="-34.7161754780657" YPOS="16.0714285714287" WIDTH="1334.50062992126" HEIGHT="857.49874015748" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1.30322327140748" LOCALSCY="1.30322327140748" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="2-lets-start.jpg" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 1334.5 0 1334.5 0 1334.5 0 1334.5 0 1334.5 857.499 1334.5 857.499 1334.5 857.499 1334.5 857.499 0 857.499 0 857.499 0 857.499 0 857.499 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 1334.5 0 1334.5 0 1334.5 0 1334.5 0 1334.5 857.499 1334.5 857.499 1334.5 857.499 1334.5 857.499 0 857.499 0 857.499 0 857.499 0 857.499 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="82.9927597045898" YPOS="3.07142853736877" WIDTH="1220.04040527344" HEIGHT="869.498779296875" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1.4" LOCALSCY="1.4" LOCALX="-83.362879640045" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="2-lets-start.jpg" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 1220.04 0 1220.04 0 1220.04 0 1220.04 0 1220.04 869.499 1220.04 869.499 1220.04 869.499 1220.04 869.499 0 869.499 0 869.499 0 869.499 0 869.499 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 1220.04 0 1220.04 0 1220.04 0 1220.04 0 1220.04 869.499 1220.04 869.499 1220.04 869.499 1220.04 869.499 0 869.499 0 869.499 0 869.499 0 869.499 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <ImageEffect Code="3" Param="136"/>
             <ImageEffect Code="2" Param="Cyan&#10;100"/>
@@ -253,7 +253,7 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="128.347086614173" YPOS="1220.07968503937" WIDTH="238.288751406075" HEIGHT="30.4724409448818" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 238.289 0 238.289 0 238.289 0 238.289 0 238.289 30.4724 238.289 30.4724 238.289 30.4724 238.289 30.4724 0 30.4724 0 30.4724 0 30.4724 0 30.4724 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 238.289 0 238.289 0 238.289 0 238.289 0 238.289 30.4724 238.289 30.4724 238.289 30.4724 238.289 30.4724 0 30.4724 0 30.4724 0 30.4724 0 30.4724 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="1" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="3. Carefully seperate out each individual wire, being careful not to rip the break the insulation."/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="3. Carefully separate out each individual wire, being careful not to rip or break the insulation."/>
             <para ALIGN="3"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -262,57 +262,58 @@
             <ITEXT FONT="FreeSans Regular" FONTSIZE="12" CH=" - Making Pin &amp; Wire Connectors"/>
             <para/>
             <para/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="1. First take the IDC header and carefully pull the individual pins from the header using your pilers.  Strighten any which get bent with the pilers."/>
-            <para/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="2. Next we will take the remainder ribbon cable and strip it into individual wires."/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="1. First take the IDC header and carefully pull the individual pins from the header using your pilers.  Straighten any which get bent with the pilers."/>
+            <para ALIGN="3"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="2. Next we will take the remaining ribbon cable and strip it into individual wires."/>
             <ITEXT CH="  "/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="With the modelling knife, do the same as we did previously to split out the ends."/>
-            <para/>
+            <para ALIGN="3"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="749.140157480315" YPOS="317.63905511811" WIDTH="239.430641169853" HEIGHT="349.064881889764" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 239.431 0 239.431 0 239.431 0 239.431 0 239.431 349.065 239.431 349.065 239.431 349.065 239.431 349.065 0 349.065 0 349.065 0 349.065 0 349.065 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 239.431 0 239.431 0 239.431 0 239.431 0 239.431 349.065 239.431 349.065 239.431 349.065 239.431 349.065 0 349.065 0 349.065 0 349.065 0 349.065 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="1" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="1. Make sure the ribbon is square with the connector."/>
             <para ALIGN="3"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="2. If using pliers (with a piece of card protecting the connector (not shown in the picture)):"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="2. If using pliers, with a piece of card protecting the connector (not shown in the picture):"/>
             <para ALIGN="3"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="Gently squeeze first one end of the connector until the cable starts to push the wire between the spikes.  Now go to the other end of the connector and repeat.  Do the same about a third and two thirds along the connector.  Continue this until the side clips latch into position.  Ensure the wires are evenly squashed between the body and clamp of the connector.  Remember its essential to keep an even progress across the width of the connector."/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="Gently squeeze first one end of the connector until the cable starts to push the wire between the spikes.  Now go to the other end of the connector and repeat.  Do the same about a third and two thirds along the connector.  Continue this until the side clips latch into position.  Ensure the wires are evenly squashed between the body and clamp of the connector.  Remember it is essential to keep an even progress across the width of the connector."/>
             <para ALIGN="3"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="If using a Vice, close the Vice until it is just holding the cable between the connector body and the clamp, ensure for the last time that pin1 and wire1 are where they should be and that the cable is square with the connector. Tighten the Vice until the connector is latched. "/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="If using a vice, close the vice until it is just holding the cable between the connector body and the clamp. Ensure for the last time that pin 1 and wire 1 are where they should be and that the cable is square with the connector. Tighten the vice until the connector is latched. "/>
             <para ALIGN="3"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="3. Determine how long you want the cable to be (for good signals don't make it too long, less than 15cm (6 inches) is ideal).  Position the second IDC connector where you want it, ensuring it is the correct way round and repeat the clamping process.."/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="3. Determine how long you want the cable to be. For good signals don't make it too long - less than 15cm (6 inches) is ideal.  Position the second IDC connector where you want it, ensuring it is the correct way round and repeat the clamping process."/>
             <trail ALIGN="3"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="402.49937007874" YPOS="759.375" WIDTH="238.924251968505" HEIGHT="74.1695669291345" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 238.924 0 238.924 0 238.924 0 238.924 0 238.924 74.1696 238.924 74.1696 238.924 74.1696 238.924 74.1696 0 74.1696 0 74.1696 0 74.1696 0 74.1696 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 238.924 0 238.924 0 238.924 0 238.924 0 238.924 74.1696 238.924 74.1696 238.924 74.1696 238.924 74.1696 0 74.1696 0 74.1696 0 74.1696 0 74.1696 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="1" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="7. Insert the 26 way ribbon into an IDC connector, ensuring the marked wire and the marked pin (Wire 1 and Pin 1) are lined up."/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="7. Insert the 26 way ribbon into an IDC connector, ensuring the marked wire and the marked pin (wire 1 and pin 1) are lined up."/>
             <para ALIGN="3"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="Leave a little bit of cable protruding through the connector."/>
             <trail ALIGN="3"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="402.068908886389" YPOS="245.669291338583" WIDTH="239.354713160856" HEIGHT="193.455708661417" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 239.355 0 239.355 0 239.355 0 239.355 0 239.355 193.456 239.355 193.456 239.355 193.456 239.355 193.456 0 193.456 0 193.456 0 193.456 0 193.456 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 239.355 0 239.355 0 239.355 0 239.355 0 239.355 193.456 239.355 193.456 239.355 193.456 239.355 193.456 0 193.456 0 193.456 0 193.456 0 193.456 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="1" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="4. If your cable has connectors already on it, carefully cut them neatly off (either with the knife or pair of scissors)."/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="4. If your cable has connectors already on it, carefully cut them neatly off (either with a knife or pair of scissors)."/>
             <para ALIGN="3"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="5. Offer up the marked ribbon and ensure that wire one lines up with the connector pin one and that pin 26 is where you have marked it to be.  Double check before cutting carefully between wire 26 and 27 for about 25mm ( I find it easier to press the knife into the cable at the 25mm point and cutting back to the end.)"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="5. Offer up the marked ribbon and ensure that wire 1 lines up with the connector pin 1 and that pin 26 is where you have marked it to be.  Double check before cutting carefully between wire 26 and 27 for about 25mm (I find it easier to press the knife into the cable at the 25mm point and cutting back to the end)"/>
+            <ITEXT CH="."/>
             <para ALIGN="3"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="6. Take the two ends of the ribbon in each hand and pull slowly and carefully (in a tearing action) the two pieces apart producing a 26 way and a remainder ribbon."/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="6. Take the two ends of the ribbon in each hand and pull slowly and carefully (in a tearing action) the two pieces apart producing a 26 way ribbon and a remaining ribbon."/>
             <trail ALIGN="3"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614173" YPOS="695.625" WIDTH="238.364679415072" HEIGHT="137.919566929134" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 238.365 0 238.365 0 238.365 0 238.365 0 238.365 137.92 238.365 137.92 238.365 137.92 238.365 137.92 0 137.92 0 137.92 0 137.92 0 137.92 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 238.365 0 238.365 0 238.365 0 238.365 0 238.365 137.92 238.365 137.92 238.365 137.92 238.365 137.92 0 137.92 0 137.92 0 137.92 0 137.92 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="1" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT FONT="FreeSans Bold" FONTSIZE="12" FEATURES="inherit underline" CH="Getting Started"/>
             <ITEXT FONT="FreeSans Bold" FONTSIZE="12" CH=" "/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="12" CH="- Perparing Your Cables and Connectors"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="12" CH="- Preparing Your Cables and Connectors"/>
             <para/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="1. Take your ribbon cable and locate the marked wire indicating wire one."/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="1. Take your ribbon cable and locate the marked wire indicating wire number 1."/>
             <para ALIGN="3"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="2. From the marker wire count off 26 wires in the ribbon then mark the gap between wire 26 and 27. "/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="2. From the marker wire count off 26 wires in the ribbon then mark the gap between wires 26 and 27. "/>
             <para ALIGN="3"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="3. Take an IDC connector and identify pin one (in the image above, under the left-most pin look carefully and you will see a small triangle, thats pin one)."/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="3. Take an IDC connector and identify pin 1 (look at the image at the top of the next column; under the left-most pin you will see a small triangle - thats pin 1)."/>
             <trail ALIGN="3"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="2" PTYPE="2" XPOS="-34.9310911136114" YPOS="901.784454443195" WIDTH="1334.50063" HEIGHT="857.4987402" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1.30322327148438" LOCALSCY="1.30322327148438" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="2-lets-start.jpg" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 1334.5 0 1334.5 0 1334.5 0 1334.5 0 1334.5 857.499 1334.5 857.499 1334.5 857.499 1334.5 857.499 0 857.499 0 857.499 0 857.499 0 857.499 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 1334.5 0 1334.5 0 1334.5 0 1334.5 0 1334.5 857.499 1334.5 857.499 1334.5 857.499 1334.5 857.499 0 857.499 0 857.499 0 857.499 0 857.499 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="2" PTYPE="2" XPOS="82.5682525634766" YPOS="885.320190429688" WIDTH="1226.25" HEIGHT="873.963012695312" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1.4" LOCALSCY="1.4" LOCALX="-83.9281027657645" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="2-lets-start.jpg" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 1226.25 0 1226.25 0 1226.25 0 1226.25 0 1226.25 873.963 1226.25 873.963 1226.25 873.963 1226.25 873.963 0 873.963 0 873.963 0 873.963 0 873.963 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 1226.25 0 1226.25 0 1226.25 0 1226.25 0 1226.25 873.963 1226.25 873.963 1226.25 873.963 1226.25 873.963 0 873.963 0 873.963 0 873.963 0 873.963 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <ImageEffect Code="3" Param="136"/>
             <ImageEffect Code="2" Param="Magenta&#10;100"/>
@@ -329,9 +330,9 @@
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="749.140157480315" YPOS="68.1902362204725" WIDTH="239.059842519685" HEIGHT="49.0790551181102" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 239.06 0 239.06 0 239.06 0 239.06 0 239.06 49.0791 239.06 49.0791 239.06 49.0791 239.06 49.0791 0 49.0791 0 49.0791 0 49.0791 0 49.0791 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 239.06 0 239.06 0 239.06 0 239.06 0 239.06 49.0791 239.06 49.0791 239.06 49.0791 239.06 49.0791 0 49.0791 0 49.0791 0 49.0791 0 49.0791 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="1" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT FONT="FreeSans Bold" FONTSIZE="12" FEATURES="inherit underline" CH="The Tricky Bit"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="12" CH=" - Making connections"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="12" CH=" - Making Connections"/>
             <para/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="I usually use a small bench vice for this, but failing that, a pair of pliers or molegrips will have to suffice."/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="I usually use a small bench vice for this, but failing that, a pair of pliers or molegrips will suffice."/>
             <trail ALIGN="3"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -344,7 +345,7 @@
             <ITEXT CH="."/>
             <para ALIGN="3"/>
             <para ALIGN="3"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="You can usually buy large rolls of wire from common suppliers or there are several ebay sellers which will provide a range of colours and lengths by the meter."/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="You can buy large rolls of wire from electrical suppliers or there are several Ebay sellers which will provide a range of colours and lengths by the meter."/>
             <para ALIGN="3"/>
             <para ALIGN="3"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="Alternatively, you can follow the instructions below to create your own flexible pin connectors, which makes great soldering practice too."/>
@@ -354,13 +355,13 @@
         <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="1023" YPOS="68.1902362204724" WIDTH="239.216692913387" HEIGHT="161.009763779528" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 239.217 0 239.217 0 239.217 0 239.217 0 239.217 161.01 239.217 161.01 239.217 161.01 239.217 161.01 0 161.01 0 161.01 0 161.01 0 161.01 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 239.217 0 239.217 0 239.217 0 239.217 0 239.217 161.01 239.217 161.01 239.217 161.01 239.217 161.01 0 161.01 0 161.01 0 161.01 0 161.01 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="1" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="4.  Now carefully trim the cable ends as close to the connector as you can with the modelling knife."/>
             <para ALIGN="3"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="5.  If you have a multimeter available, it is advisable to check through the connections to be 100% sure there are no shorts or bad connections."/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="5.  If you have a multimeter available it is advisable to check through the connections to be 100% sure there are no shorts or bad connections."/>
             <para ALIGN="3"/>
             <para ALIGN="3"/>
             <ITEXT FONT="FreeSans Bold" FONTSIZE="10" CH="GPIO Connector for your Raspberry Pi? ...Done!"/>
             <para/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="Gert van Loo has posted a YouTube video showing making a GPIO cable using a vice, available here."/>
-            <para/>
+            <para ALIGN="3"/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="10" FCOLOR="Link" FSHADE="100" CH="http://goo.gl/DC4Sf"/>
             <trail/>
             <PageItemAttributes/>
@@ -375,7 +376,7 @@
         <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="400.8" YPOS="1410.6" WIDTH="240.623622047245" HEIGHT="138" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 240.624 0 240.624 0 240.624 0 240.624 0 240.624 138 240.624 138 240.624 138 240.624 138 0 138 0 138 0 138 0 138 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 240.624 0 240.624 0 240.624 0 240.624 0 240.624 138 240.624 138 240.624 138 240.624 138 0 138 0 138 0 138 0 138 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="1" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="8.  Take the heatshrink sleeving and cut two lengths about 5-10mm long."/>
             <para ALIGN="3"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="9.  Now slide a length of heatshrink sleeve over the soldered joint leaving about 10mm clear to the end of the pin (the wire should come out one side, the pin the other).  Next apply a little heat to shrink the sleeve over the joint.  The side of the soldering iron's tip will suffice, a heat gun or even a hair dryer will work."/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="9.  Now slide a length of heatshrink sleeve over the soldered joint leaving about 10mm clear to the end of the pin (the wire should come out one side and the pin the other side).  Next apply a little heat to shrink the sleeve over the joint.  The side of the soldering iron's tip will suffice, a heat gun or even a hair dryer will work."/>
             <trail ALIGN="3"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -392,21 +393,22 @@
             <para/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="8" CH="Image below and top right: A short GPIO header in use."/>
             <para/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="8" CH="Image bottom right: A very brave Pi-to-Pi GPIO connection!"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="8" CH="Image bottom right: A Pi-to-Pi GPIO connection (Don't do this!)"/>
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614173" YPOS="149.069291338583" WIDTH="240.052913385827" HEIGHT="374.730708661417" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 240.053 0 240.053 0 240.053 0 240.053 0 240.053 374.731 240.053 374.731 240.053 374.731 240.053 374.731 0 374.731 0 374.731 0 374.731 0 374.731 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 240.053 0 240.053 0 240.053 0 240.053 0 240.053 374.731 240.053 374.731 240.053 374.731 240.053 374.731 0 374.731 0 374.731 0 374.731 0 374.731 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="1" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONT="FreeSerif Bold Italic" FONTSIZE="14" CH="In this article I will describe a cheap way to protect your GPIO connector from accidental shorts and physical damage, and at the same time provide a GPIO Socket which can be easily connected to at almost no cost."/>
+            <ITEXT FONT="FreeSerif Bold Italic" FONTSIZE="14" CH="In this article I will describe a cheap way to protect your GPIO connector from accidental shorts and physical damage, and at the same time provide a GPIO Socket which can be easily connected, at almost no cost."/>
             <para ALIGN="1"/>
             <para/>
             <ITEXT FONT="FreeSans Bold" FONTSIZE="12" FEATURES="inherit underline" CH="What You Are Going To Need"/>
             <para ALIGN="3"/>
             <ITEXT FONT="FreeSans Bold" FONTSIZE="12" CH="Components"/>
             <para ALIGN="3"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="• 2 x 26 Way IDC (Insulation-displacement connector) Ribbon Socket"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="• 2 x 26 way IDC (insulation-displacement connector) ribbon socket"/>
+            <ITEXT CH="."/>
             <para ALIGN="3"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="• A length of ribbon cable (with 24 wires or more).  An old Floppy drive cable, or an old IDE Hard-drive cable is ideal (older type with 40 wires, rather than the finer 80 wire ones)."/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="• A length of ribbon cable (with 24 wires or more).  An old floppy drive cable, or an old IDE hard-drive cable is ideal (older type with 40 wires, rather than the finer 80 wire ones)."/>
             <para ALIGN="3"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="• "/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Red" FSHADE="100" CH="(Optional)"/>
@@ -414,21 +416,25 @@
             <para ALIGN="3"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="• "/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Red" FSHADE="100" CH="(Optional)"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" An IDC pin header, I rescued mine fom an old motherboard."/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" An IDC pin header, I rescued mine from an old motherboard."/>
             <para ALIGN="3"/>
             <ITEXT FONT="FreeSans Bold" FONTSIZE="12" CH="Tools"/>
             <para ALIGN="3"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="• A sharp modelling knife"/>
+            <ITEXT CH="."/>
             <para ALIGN="3"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="• A Workbench Vice or if very careful a pair of pliers/molegrips"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="• A workbench vice or, if very careful, a pair of pliers / molegrips"/>
+            <ITEXT CH="."/>
             <para ALIGN="3"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="• "/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Red" FSHADE="100" CH="(Optional)"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" A few inches of solder"/>
+            <ITEXT CH="."/>
             <para ALIGN="3"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="• "/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Red" FSHADE="100" CH="(Optional)"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=" A basic electronics soldering iron"/>
+            <ITEXT CH="."/>
             <para/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -436,17 +442,17 @@
             <ITEXT FONT="FreeSans Bold" FONTSIZE="12" FEATURES="inherit underline" CH="Important Piece Of Pi"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="12" CH=" - GPIO Socket"/>
             <para ALIGN="3"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="The Pinout of the GPIO Socket is now subtly different to the board's pin header."/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="The pinout of the GPIO Socket is now subtly different to the board's pin header."/>
             <para ALIGN="3"/>
             <para ALIGN="3"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="WHILE THE PIN NUMBERS ARE STILL CORRECT THE VIEWED POSITION IS NOT."/>
             <para ALIGN="3"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="Pin 1 is still Pin 1 but its on the opposite side to Raspberry Pi pin header (as shown on the RPi Wiki, "/>
-            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FCOLOR="Link" FSHADE="100" CH="http://goo.gl/Oh1p6"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="Pin 1 is still Pin 1 but its on the opposite side to the  Raspberry Pi pin header (as shown on the RPi Wiki, "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" FCOLOR="Link" FSHADE="100" CH="http://goo.gl/E19X9"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH=").  To save yourself some heartache, it is recommended you clearly label Pin 1 and you keep a copy of the following pinout diagram handy."/>
             <para ALIGN="3"/>
             <para ALIGN="3"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="Here is the corrected pinout for the GPIO SOCKET viewed into the socket.  Note, Pin 1 is the 3v3 pin and connector's &quot;key&quot; is shown (by GPIO22) which also indicates which side Pin 1 is on."/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="Here is the corrected pinout for the GPIO SOCKET viewed into the socket.  Note, pin 1 is the 3v3 pin and the connector's &quot;key&quot; is shown (by GPIO22) which also indicates which side Pin 1 is on."/>
             <trail ALIGN="3"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
