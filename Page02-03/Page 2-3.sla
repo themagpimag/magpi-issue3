@@ -19,8 +19,8 @@
         <COLOR NAME="White" CMYK="#00000000" Spot="0" Register="0"/>
         <COLOR NAME="Yellow" CMYK="#0000ff00" Spot="0" Register="0"/>
         <HYPHEN/>
-        <STYLE NAME="Default Paragraph Style" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
-        <CHARSTYLE CNAME="Default Character Style" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
+        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
+        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
         <LAYERS NUMMER="0" LEVEL="0" NAME="Background" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#000000"/>
         <LAYERS NUMMER="1" LEVEL="1" NAME="Text" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff0000"/>
         <LAYERS NUMMER="2" LEVEL="2" NAME="Images" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#00ff00"/>
@@ -32,7 +32,7 @@
             <Separation Name="Yellow"/>
             <Separation Name="Black"/>
         </Printer>
-        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="0" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="600" Resolution="600" Version="15" Intent="1" Intent2="0" SolidP="sRGB IEC61966-2.1" ImageP="sRGB IEC61966-2.1" PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="8.50393700787402" BLeft="8.50393700787402" BRight="8.50393700787402" BBottom="8.50393700787402" useDocBleeds="0" cropMarks="1" bleedMarks="1" registrationMarks="1" colorMarks="1" docInfoMarks="1" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="0" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
+        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="1" Quality="2" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="600" Resolution="600" Version="15" Intent="1" Intent2="0" SolidP="sRGB IEC61966-2.1" ImageP="sRGB IEC61966-2.1" PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="8.50393700787402" BLeft="8.50393700787402" BRight="8.50393700787402" BBottom="8.50393700787402" useDocBleeds="1" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="0" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
             <Fonts Name="Monaco Regular"/>
             <Fonts Name="Nimbus Sans L Bold Condensed"/>
             <Fonts Name="URW Chancery L Medium Italic"/>
@@ -83,7 +83,7 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614173" YPOS="157.5" WIDTH="513.076535433071" HEIGHT="676.044566929135" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="34.0157480314961" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="1" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 513.077 0 513.077 0 513.077 0 513.077 0 513.077 676.045 513.077 676.045 513.077 676.045 513.077 676.045 0 676.045 0 676.045 0 676.045 0 676.045 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 513.077 0 513.077 0 513.077 0 513.077 0 513.077 676.045 513.077 676.045 513.077 676.045 513.077 676.045 0 676.045 0 676.045 0 676.045 0 676.045 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="1" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONT="URW Chancery L Medium Italic" FONTSIZE="16" CH="Welcome to Issue 3 of The MagPi, a community lead magazine keeping you up to date with all things Raspberry Pi."/>
+            <ITEXT FONT="URW Chancery L Medium Italic" FONTSIZE="16" CH="Welcome to Issue 3 of The MagPi, a community led magazine keeping you up to date with all things Raspberry Pi."/>
             <para/>
             <para/>
             <ITEXT FONT="URW Chancery L Medium Italic" FONTSIZE="16" CH="This month has seen the team working hard searching and testing 9000 stable Debian packages, and identifying over 150 games and 43 apps to try out on your Pi."/>
@@ -115,10 +115,10 @@
             <para/>
             <para/>
             <para/>
-            <ITEXT FONT="URW Chancery L Medium Italic" FONTSIZE="16" CH="On behalf of The MagPi team we want to thank Will Bengtson and his team at QRt for giving us our beautiful personal The MagPi QR code.  Please check out their site at http://QRt.co and see their clever generator and other attractive work."/>
+            <ITEXT FONT="URW Chancery L Medium Italic" FONTSIZE="16" CH="On behalf of The MagPi team we want to thank Will Bengtson and his team at QRt for giving us our beautiful, personal The MagPi QR code.  Please check out their site at http://QRt.co and see their clever generator and other attractive work."/>
             <para/>
             <para/>
-            <ITEXT FONT="URW Chancery L Medium Italic" FONTSIZE="16" CH="Finally, keep your questions for Liz and Eben coming in and look for our official interview in next months magazine."/>
+            <ITEXT FONT="URW Chancery L Medium Italic" FONTSIZE="16" CH="Finally, keep your questions for Liz and Eben coming in and look for our official interview in next month's magazine."/>
             <para/>
             <para/>
             <ITEXT FONT="URW Chancery L Medium Italic" FONTSIZE="16" CH="We hope you continue to enjoy reading The MagPi and that it"/>
@@ -234,7 +234,7 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="749.140157480315" YPOS="153.229606299213" WIDTH="513.076535433071" HEIGHT="481.889653543307" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="34.0157480314961" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="14" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 513.077 0 513.077 0 513.077 0 513.077 0 513.077 481.89 513.077 481.89 513.077 481.89 513.077 481.89 0 481.89 0 481.89 0 481.89 0 481.89 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 513.077 0 513.077 0 513.077 0 513.077 0 513.077 481.89 513.077 481.89 513.077 481.89 513.077 481.89 0 481.89 0 481.89 0 481.89 0 481.89 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="1" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="12" CH="If you are tired of logging in to your Debian SD card with username: pi, password: raspberry and then typing startx, you can get your Raspberry to boot straight to the graphical interface without having to type anything..."/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="12" CH="If you are tired of logging in to your Debian SD card with username: pi, password: raspberry and then typing startx, you can get your Raspberry Pi to boot straight to the graphical interface without having to type anything..."/>
             <para ALIGN="3" LINESP="14"/>
             <para LINESP="14"/>
             <ITEXT FONTSIZE="10" CH="After logging in type:"/>
@@ -278,10 +278,10 @@
             <ITEXT FONT="Monaco Regular" FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="sudo reboot"/>
             <para LINESP="14"/>
             <para LINESP="14"/>
-            <ITEXT FONTSIZE="10" CH="Your Pi should now boot up to LXDE automatically.  I'm sure that will make many of you happy!"/>
+            <ITEXT FONTSIZE="10" CH="Your Raspberry Pi should now boot up to LXDE automatically.  I'm sure that will make many of you happy!"/>
             <para LINESP="14"/>
             <para LINESP="14"/>
-            <ITEXT FONTSIZE="10" CH="Make sure to follow these instructions carefully and be aware of the lack of security - the contents of your Pi are now open to anyone that has access to it.  More useful Debian tips are on the next page."/>
+            <ITEXT FONTSIZE="10" CH="Make sure to follow these instructions carefully and be aware of the lack of security - the contents of your Raspberry Pi are now open to anyone that has access to it.  More useful Debian tips are on the next page."/>
             <para LINESP="14"/>
             <para LINESP="14"/>
             <ITEXT FONT="FreeSans Bold Oblique" FONTSIZE="12" CH="Article by Jaseman"/>

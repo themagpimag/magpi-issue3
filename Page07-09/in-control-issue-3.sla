@@ -33,7 +33,7 @@
         <LAYERS NUMMER="2" LEVEL="1" NAME="Images" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#00ff00"/>
         <LAYERS NUMMER="3" LEVEL="2" NAME="Text" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#0000ff"/>
         <Printer firstUse="1" toFile="0" useAltPrintCommand="0" outputSeparations="0" useSpotColors="1" useColor="1" mirrorH="1" mirrorV="1" useICC="1" doGCR="1" doClip="1" setDevParam="0" useDocBleeds="1" cropMarks="0" bleedMarks="1" registrationMarks="0" colorMarks="1" includePDFMarks="0" PSLevel="3" PDLanguage="3" markOffset="1.06809996176056e-306" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" printer="" filename="" separationName="" printerCommand=""/>
-        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="0" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="600" Resolution="600" Version="15" Intent="1" Intent2="0" SolidP="" ImageP="" PrintP="" InfoString="" BTop="8.50393700787402" BLeft="8.50393700787402" BRight="8.50393700787402" BBottom="8.50393700787402" useDocBleeds="0" cropMarks="1" bleedMarks="1" registrationMarks="1" colorMarks="1" docInfoMarks="1" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="0" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
+        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="1" Quality="2" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="600" Resolution="600" Version="15" Intent="1" Intent2="0" SolidP="" ImageP="" PrintP="" InfoString="" BTop="8.50393700787402" BLeft="8.50393700787402" BRight="8.50393700787402" BBottom="8.50393700787402" useDocBleeds="1" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="0" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
             <Fonts Name="Bitstream Charter Bold"/>
             <Fonts Name="Courier 10 Pitch Regular"/>
             <Fonts Name="Droid Sans Regular"/>
@@ -107,7 +107,7 @@
             <ITEXT FONT="FreeSans Regular" FONTSIZE="11" CH="We are making two small changes to the circuit from last month. We turn resistor R1 90° so it is connected to points E1 &amp; E5. This disconnects the LED from the switch. Next, we connect a second GPIO pin to point D1 so that the LED can be independently controlled."/>
             <para ALIGN="3"/>
             <para ALIGN="3"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="11" CH="When using the Raspberry Pi GPIO pins as an output we have to be very careful not to draw too much current. The 470Ω resistor in this circuit limits the current to 3mA, just enough to light a standard 3mm Red LED. ►"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="11" CH="When using the Raspberry Pi GPIO pins as an output we have to be very careful not to draw too much current. The 470Ω resistor in this circuit limits the current to 3mA, just enough to light a standard 3mm Red LED."/>
             <para ALIGN="3"/>
             <para ALIGN="3"/>
             <para ALIGN="3"/>
@@ -199,7 +199,7 @@
             <ITEXT FONT="FreeSans Regular" FONTSIZE="11" CH="We start by importing the RPi.GPIO package and configuring GPIO pin 11 as an input and pin 12 as an output using the now familiar “GPIO.setup” syntax."/>
             <para ALIGN="3"/>
             <para ALIGN="3"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="11" CH="By using ‘while True’ we create a never ending loop so that everything below this will be repeated until we choose to stop it"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="11" CH="By using &quot;while True&quot; we create a never ending loop so that everything below this will be repeated until we choose to stop it"/>
             <ITEXT CH="."/>
             <para ALIGN="3"/>
             <para ALIGN="3"/>
@@ -207,7 +207,7 @@
             <para ALIGN="3"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="11" CH="When you have had enough press the"/>
             <ITEXT CH=" "/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="11" CH="Control+C keys to stop the program."/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="11" CH="CTRL+C keys to stop the program."/>
             <para ALIGN="3"/>
             <para ALIGN="3"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="11" CH="Having the LED light up when the switch is"/>
@@ -469,6 +469,11 @@
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="3" PTYPE="6" XPOS="749.134460449219" YPOS="1250.55232779435" WIDTH="242.364929199219" HEIGHT="333.785034179688" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="InControlTop" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 242.365 0 242.365 0 242.365 0 242.365 0 242.365 333.785 242.365 333.785 242.365 333.785 242.365 333.785 0 333.785 0 333.785 0 333.785 0 333.785 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 242.365 0 242.365 0 242.365 0 242.365 0 242.365 333.785 242.365 333.785 242.365 333.785 242.365 333.785 0 333.785 0 333.785 0 333.785 0 333.785 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="2" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="1073.25" YPOS="817.169291338583" WIDTH="188.955352783203" HEIGHT="22.0450229644775" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Bold Oblique" ISIZE="14" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 188.955 0 188.955 0 188.955 0 188.955 0 188.955 22.045 188.955 22.045 188.955 22.045 188.955 22.045 0 22.045 0 22.045 0 22.045 0 22.045 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 188.955 0 188.955 0 188.955 0 188.955 0 188.955 22.045 188.955 22.045 188.955 22.045 188.955 22.045 0 22.045 0 22.045 0 22.045 0 22.045 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="3" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="FreeSans Bold Oblique" FONTSIZE="14" CH="Continued over page..."/>
+            <trail ALIGN="2"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
     </DOCUMENT>
