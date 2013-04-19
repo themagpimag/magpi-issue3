@@ -30,7 +30,7 @@
         <LAYERS NUMMER="3" LEVEL="3" NAME="Page Numbers" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#0000ff"/>
         <LAYERS NUMMER="4" LEVEL="4" NAME="Title" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#00ffff"/>
         <Printer firstUse="1" toFile="1" useAltPrintCommand="1" outputSeparations="1" useSpotColors="1" useColor="1" mirrorH="1" mirrorV="1" useICC="0" doGCR="0" doClip="0" setDevParam="0" useDocBleeds="0" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" includePDFMarks="0" PSLevel="0" PDLanguage="0" markOffset="0" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" printer="" filename="" separationName="" printerCommand=""/>
-        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="1" Quality="2" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="600" Resolution="600" Version="15" Intent="1" Intent2="0" SolidP="sRGB IEC61966-2.1" ImageP="sRGB IEC61966-2.1" PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="8.50393700787402" BLeft="8.50393700787402" BRight="8.50393700787402" BBottom="8.50393700787402" useDocBleeds="1" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="0" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
+        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="0" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="600" Resolution="600" Version="15" Intent="1" Intent2="0" SolidP="sRGB IEC61966-2.1" ImageP="sRGB IEC61966-2.1" PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="8.50393700787402" BLeft="8.50393700787402" BRight="8.50393700787402" BBottom="8.50393700787402" useDocBleeds="0" cropMarks="1" bleedMarks="1" registrationMarks="1" colorMarks="1" docInfoMarks="1" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="0" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
             <Fonts Name="Monaco Regular"/>
             <Subset Name="FreeSans Bold"/>
             <Subset Name="FreeSans Bold Oblique"/>
@@ -81,7 +81,7 @@
             <ITEXT FONT="FreeSans Bold" FONTSIZE="14" FEATURES="inherit underline" CH="Installing Python PyUSB libraries"/>
             <para ALIGN="3" LINESP="12"/>
             <para ALIGN="3" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="To be able to control your USB device you will need the Python USB libraries.  The PyUSB libraries have been written in collaboration with a team of 'open-source' volunteers."/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="To be able to control your USB device you will need the Python PyUSB libraries.  The PyUSB libraries have been written in collaboration with a team of 'open-source' volunteers."/>
             <para ALIGN="3" LINESP="12"/>
             <para ALIGN="3" LINESP="12"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="To download them, open the Midori web browser and visit: "/>
@@ -119,9 +119,8 @@
             <ITEXT FONT="FreeSans Bold" FONTSIZE="14" FEATURES="inherit underline" CH="Writing the Python program"/>
             <para ALIGN="3" LINESP="12"/>
             <para ALIGN="3" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FEATURES="inherit" CH="Type this code in Idle and save it as 'arm.py"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FEATURES="inherit" CH="Type this code into Idle, the Python editor, and save it as 'arm.py"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="':"/>
-            <para ALIGN="3" LINESP="12"/>
             <para ALIGN="3" LINESP="12"/>
             <para ALIGN="3" LINESP="12"/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="8" CH="# ROBOT ARM CONTROL PROGRAM"/>
@@ -213,9 +212,11 @@
             <para ALIGN="3" LINESP="12"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="1. controls the motors for the grip, wrist, elbow and shoulder."/>
             <para ALIGN="3" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="2. is for rotating the base.  Valid values are 0 (No rotation) 1 (Anti-clockwise) 2 (Clockwise)"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="2. is for rotating the base.  Valid values are 0 (No rotation), 1 (Anti-clockwise) and 2 (Clockwise)"/>
+            <ITEXT CH="."/>
             <para ALIGN="3" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="3. is for the LED at the end of the arm.  Valid values are 0 (Off) 1 (On)"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="3. is for the LED at the end of the arm.  Valid values are 0 (Off) and 1 (On)"/>
+            <ITEXT CH="."/>
             <para ALIGN="3" LINESP="12"/>
             <para ALIGN="3" LINESP="12"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="For the first value, you can combine movements by adding the commands together, for example [32,0,0] + [8,0,0] = [40,0,0]. This would make the elbow and wrist go down at the same time. Of course some combinations won't work, like attempting to operate the same motor in both directions."/>
@@ -229,17 +230,17 @@
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="'sudo lsusb -v"/>
             <ITEXT CH="'"/>
             <para ALIGN="3" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="This provides a list of details about all of the USB devices that are connected to your Pi"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="This provides a list of details about all of the USB devices that are connected to your Raspberry Pi"/>
             <ITEXT CH="."/>
             <para ALIGN="3" LINESP="12"/>
             <para ALIGN="3" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="The values for '.ctrl_transfer' (0x40, 6, 0x100, 0) were obtained by 'USB sniffing' the device using software such as 'Snoopypro' for Windows.  These hexadecimal numbers represent the 'USB protocol' for the robot arm.  You can think of it as the language that the arm's circuit board controller understands."/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="The values for '.ctrl_transfer' (0x40, 6, 0x100, 0) were obtained by USB sniffing the device using software such as 'Snoopypro' for Windows.  These hexadecimal numbers represent the USB protocol for the robot arm.  You can think of it as the language that the arm's circuit board controller understands."/>
             <para ALIGN="3" LINESP="12"/>
             <para ALIGN="3" LINESP="12"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="The value 1000 at the end of .ctrl_transfer is a timeout value for sending the command to the USB device."/>
             <para ALIGN="3" LINESP="12"/>
             <para ALIGN="3" LINESP="12"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="This is the bare minimum of what you need to be able to do to start programming your robot arm. If you wish to take your knowledge further, and eventually have the ability to accomplish much more, I have included some extra information about how USB devices such as our robot arm actually works to help you get started off."/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="This is the bare minimum of what you need to be able to do to start programming your robot arm. If you wish to take your knowledge further, and eventually have the ability to accomplish much more, I have included some extra information about how USB devices such as our robot arm actually work, to help you get started off."/>
             <para ALIGN="3" LINESP="12"/>
             <para ALIGN="3" LINESP="12"/>
             <ITEXT FONT="FreeSans Bold" FONTSIZE="14" FEATURES="inherit underline" CH="An introduction to USB devices"/>
@@ -248,17 +249,17 @@
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="All of the robot arm's motors are connected by wires to the circuit board. By sending signals to the circuit board we can control each of the motors. This circuit board is a USB device. "/>
             <para ALIGN="3"/>
             <para ALIGN="3"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="The protocols and methods used by USB are very complicated and events happen so quickly that it takes  some clever software such as a USB sniffer to allow us to monitor what is going on. This port is also so strange that no one can even agree on who invented it or why! Some say it was designed to cut down the number of wires poking out of the back of your computer and it looks like the “Apple Desktop Bus” from the early Apple computers – so it must have been invented by Apple. Others disagree and point out that it works like a 10 Base T Ethernet (computer network) with a star topology so it can’t be anything to do with Apple. I don’t think this argument will ever be won."/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="The protocols and methods used by USB are very complicated and events happen so quickly that it takes  some clever software such as a USB sniffer to allow us to monitor what is going on. This port is also so strange that no one can even agree on who invented it or why! Some say it was designed to cut down the number of wires poking out of the back of your computer and it looks like the “Apple Desktop Bus” from the early Apple computers – so it must have been invented by Apple. Others disagree and point out that it works like a 10 Base T ethernet (computer network) with a star topology so it can’t be anything to do with Apple. I don’t think this argument will ever be won."/>
             <para ALIGN="3"/>
             <para ALIGN="3"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="USB devices  have a “Vendor ID” and a “Product ID”. These ID's have to be issued by a special organisation (USB.org) and they differentiate between all the different devices on the market and allow your computer to recognise what it is when you plug it in. That's why when you plug a mouse into your computer it knows that it's a “Acme Optical Mouse” and not a “Eastern Electric My Personal Storage Pad”, or in our case an “OWI Edge Robot Arm”"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="USB devices  have a “Vendor ID” and a “Product ID”. These ID's have to be issued by a special organisation (USB.org) and they differentiate between all the different devices on the market and allow your computer to recognise what it is when you plug it in. That's why when you plug a mouse into your computer it knows that it's an “Acme Optical Mouse” and not an “Eastern Electric My Personal Storage Pad”, or in our case an “OWI Edge Robot Arm”"/>
             <ITEXT CH="."/>
             <para ALIGN="3"/>
             <para ALIGN="3"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="Within the circuitry for USB devices are &quot;endpoint addresses&quot; . USB devices use “pipes” (dedicated lines for transmitting data to and from the device and computer). At the end of the pipe in your computer is a USB “hub” (which works in a similar way to a network hub. It allows devices to be attached to branches that all trace back to one common point). The &quot;endpoint&quot; is at the other end of the pipe in our USB robot arm device and the address specifies where it is. Some USB devices are called “composite” devices because they combine two or more different devices together (like a web-cam which also includes a built in microphone). Such a device would have at least two end point addresses, one for the web-cam part and one for the microphone part. "/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="Within the circuitry for USB devices are &quot;endpoint addresses&quot;. USB devices use “pipes” which are dedicated lines for transmitting data to and from the device and computer. At the end of the pipe in your computer is a USB “hub” which works in a similar way to a network hub. It allows devices to be attached to branches that all trace back to one common point. The &quot;endpoint&quot; is at the other end of the pipe in our USB robot arm device and the address specifies where it is. Some USB devices are called “composite” devices because they combine two or more different devices together (like a web-cam which also includes a built in microphone). Such a device would have at least two end point addresses, one for the web-cam part and one for the microphone part. "/>
             <para ALIGN="3"/>
             <para ALIGN="3"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="When we are working with composite USB devices we may also need to refer to an interface number. Where a USB device is really made of several devices  working together and each device is at an endpoint, then an interface groups those endpoints together to allow the separate devices to work together to perform a single function. The interface is referenced by an “interface number”. This number is the index for the device so that the USB controller knows which interface to talk to. The first interface number is “0”. The second interface is at “1” and so on."/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="When we are working with composite USB devices we may also need to refer to an interface number. Where a USB device is really made of several devices  working together, and each device is at an endpoint, an interface groups those endpoints together to allow the separate devices to work together to perform a single function. The interface is referenced by an “interface number”. This number is the index for the device so that the USB controller knows which interface to talk to. The first interface number is “0”. The second interface is at “1” and so on."/>
             <para ALIGN="3"/>
             <para ALIGN="3"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="As far as the control computer and USB is concerned, our robot arm is a single device (it is a circuit board which switches some electric motors on and off when it receives the right signal from the USB) and so it is very simple to write USB control programs for it."/>
@@ -267,10 +268,10 @@
             <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="You can consider that the circuit board included with the robot arm is like three rows of eight switches (or otherwise known as three bytes). When the computer sends the right signal to it via the USB it turns one or more of these switches on and in turn this starts a motor on the robot arm turning in one direction or another. "/>
             <para ALIGN="3"/>
             <para ALIGN="3"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="The robot arm circuit board actually uses a numbering system called &quot;binary&quot;. When you send a control code such as [128,0,0] these numbers are converted into their binary equivalent. For example this particular command would become [10000000, 00000000, 00000000]. The &quot;1&quot; in the first binary number is equivalent to turning on the switch that would start the shoulder motor turning."/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="The robot arm circuit board actually uses a numbering system called &quot;binary&quot;. When you send a control code such as [128,0,0] these numbers are converted into their binary equivalent. For example, this particular command would become [10000000, 00000000, 00000000]. The &quot;1&quot; in the first binary number is equivalent to turning on the switch that would start the shoulder motor turning."/>
             <para ALIGN="3" LINESP="12"/>
             <para ALIGN="3"/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="When data is sent to and from any USB device the information is always sent in a series of bytes, or eight &quot;on&quot; and &quot;off&quot; / &quot;1&quot; or &quot;0&quot; signals like this. These signals are interpreted by USB devices in different ways and allow them to perform all the different kinds of functions that they are capable of."/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" CH="When data is sent to and from any USB device the information is always sent in a series of bytes, or eight &quot;on&quot; and &quot;off&quot; / &quot;1&quot; or &quot;0&quot; signals like this. These signals are interpreted by USB devices in different ways and allow them to perform all of the different kinds of functions that they are capable of."/>
             <para ALIGN="3" LINESP="12"/>
             <para ALIGN="3" LINESP="12"/>
             <ITEXT FONT="FreeSans Bold" FONTSIZE="14" FEATURES="inherit underline" CH="Next steps for the Skutter"/>
